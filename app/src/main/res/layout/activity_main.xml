@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6c6c62" >
+
+    <ImageView
+        android:layout_above="@+id/id_lucky_wheel"
+        android:src="@drawable/arrow"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.hungrydroid.luckywheel.LuckyWheel
+        android:id="@+id/id_lucky_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/id_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/start" />
+
+</RelativeLayout>
